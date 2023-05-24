@@ -105,7 +105,7 @@ class BaseClass {
         merchantAssociationInfo: merchantAssociationInfo,
         amount: amount,
         currency: 'BDT',
-        intent: 'Sale',
+        intent: 'sale',
         merchantInvoiceNumber: merchantInvoiceNumber,
       };
       let headers = { Authorization: this.token, 'X-APP-Key': this.appKey };

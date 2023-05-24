@@ -1,0 +1,23 @@
+{
+  "port": 9000,
+  "base": "http://localhost:3000",
+  "api": "http://localhost:9000",
+  "origin": [
+    "http://localhost:3000",
+    "http://localhost:3000",
+    "http://localhost:9000"
+  ],
+  "useHTTP2": false,
+  "SMTP_HOST": "",
+  "SMTP_PORT": "",
+  "SMTP_USER": "",
+  "SMTP_PASSWORD": "",
+  "mongodbURL": "mongodb+srv://junior-dev:JowYmbqGRcqwTFRL@cluster0.g6ebaha.mongodb.net/?retryWrites=true&w=majority",
+  "bkash": {
+    "username": "sandboxTokenizedUser02",
+    "password": "sandboxTokenizedUser02@12345",
+    "appKey": "4f6o0cjiki2rfm34kfdadl1eqq",
+    "appSecret": "2is7hdktrekvrbljjh44ll3d9l1dtjo4pasmjvs5vl5qr3fug4b",
+    "isSandbox": true
+  }
+}
